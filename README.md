@@ -15,6 +15,4 @@
 ## Tədris müddətində yazdığım məqalələr
 - [Məqalə adı]()
 - [Məqalə adı]()
-# pragmatechfoundationprojects
-# pragmatechfoundationprojects
-# pragmatechfoundationprojects
+
