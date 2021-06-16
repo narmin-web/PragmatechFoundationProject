@@ -1,0 +1,230 @@
+@import url(grid.css);
+@import url(spacing.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+/*Header styles*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(37, 53, 38, 0.85);
+    cursor: pointer;
+    position: absolute;
+}
+
+.logo {
+    padding: 20px 40px;
+    margin: 0px 42px;
+}
+
+.header__pic {
+    max-width: 190px;
+}
+
+.nav {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.nav__menu {
+    padding: 0px 20px;
+}
+
+.nav__menu:hover {
+    color: #90ba92;
+}
+
+.nav__icon {
+    margin-right: -13px;
+}
+
+
+/*Banner styles*/
+
+.banner {
+    background-image: url(../img/page-title-background.jpeg);
+    text-align: center;
+    background-repeat: repeat;
+    background-position: center;
+    display: flex;
+    height: 50vh;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 45px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.content__title {
+    font-size: 20px;
+    display: block;
+    font-style: italic;
+    color: white;
+}
+
+
+/*Structure styles*/
+
+.structure__item {
+    padding: 45px 0px 35px;
+}
+
+.structure__photo {
+    overflow: hidden;
+    position: relative;
+}
+
+.structure__pic:hover {
+    transform: scale(1.1);
+}
+
+.structure__overlay {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50px;
+    right: 50px;
+    opacity: 0;
+}
+
+.structure__icon {
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+
+.structure__title,
+.structure__inform {
+    color: white;
+    font-size: 15px;
+}
+
+.structure__item:hover .structure__overlay {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+/*Numeration styles*/
+
+.sequences {
+    margin: 36px 50px;
+    text-align: right;
+    color: #979797;
+}
+
+.page__numbers {
+    background-color: #ebebeb;
+    color: #979797;
+    padding: 13px;
+}
+
+.page__numbers:hover {
+    background-color: #5dc269;
+}
+
+
+/*FOOTER styles*/
+
+.footer__row {
+    padding: 50px 0px;
+}
+
+.footer {
+    background-color: #231e18;
+}
+
+.footer__logo {
+    width: 170px;
+    margin-bottom: 20px
+}
+
+.contact {
+    margin: 0px 5px 20px;
+}
+
+.contact__text {
+    color: #bfbfbf;
+}
+
+.contact__info {
+    margin-bottom: 30px;
+}
+
+.footer h3 {
+    color: #dddddd;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0px 16px;
+}
+
+.contact__title {
+    color: #bfbfbf;
+}
+
+.contact__title ul li {
+    list-style-type: none;
+    margin: 12px 0px;
+}
+
+.recent__post {
+    display: flex;
+    border-bottom: 2px solid #382f24;
+    padding: 20px 0px 10px;
+}
+
+.recent__post__date,
+.title__link {
+    color: #7f7f7f
+}
+
+.recent__post__content {
+    padding: 0px 7px;
+}
+
+.recent__post__title {
+    font-size: 14px;
+}
+
+.recent__post__pic {
+    max-width: 50px;
+}
+
+.recent__work__block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recent__photo {
+    max-width: 75px;
+    padding: 5px 5px;
+}

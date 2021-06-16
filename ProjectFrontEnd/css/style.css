@@ -1,0 +1,531 @@
+    @import url(grid.css);
+    @import url(spacing.css);
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.7;
+        font-size: 13px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    /*Header styles*/
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(37, 53, 38, 0.85);
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    .logo {
+        padding: 20px 5px;
+    }
+    
+    .header__pic {
+        max-width: 190px;
+    }
+    
+    .nav {
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .nav__menu {
+        padding: 0px 20px;
+    }
+    
+    .nav__menu:hover {
+        color: #90ba92;
+    }
+    
+    .nav__icon {
+        margin-right: -13px;
+    }
+    /*Banner styles*/
+    
+    .banner {
+        background-image: url(../img/slider-1.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .content {
+        color: white;
+        position: absolute;
+        left: 150px;
+        top: 150px;
+    }
+    
+    .content h1 {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    
+    .content h2 {
+        font-size: 90px;
+    }
+    
+    .content h3 {
+        font-size: 75px;
+    }
+    
+    .content__click {
+        background-color: #ecb338;
+        letter-spacing: 1px;
+        color: #6d5b1c;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin: 15px;
+    }
+    
+    .silder2 {
+        position: relative;
+    }
+    
+    .content1 {
+        position: absolute;
+    }
+    
+    .dots__block {
+        text-align: center;
+    }
+    
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    /*Service styles*/
+    
+    .service {
+        background-color: #2d2418;
+    }
+    
+    .service__item {
+        padding: 45px 30px;
+    }
+    
+    .service__item__color {
+        background-color: #3f3221;
+    }
+    
+    .service__item__photo {
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .service__item__title {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        margin: 30px 0px 15px;
+    }
+    
+    .service__text {
+        text-align: center;
+        color: white;
+        padding: 0px 33px;
+    }
+    
+    .service__click {
+        display: block;
+        letter-spacing: 1.5px;
+        font-weight: 12px;
+        text-align: center;
+        margin: 20px;
+    }
+    /*Action styles*/
+    
+    .action {
+        background-image: url(../img/donation-bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+    }
+    
+    .action__left {
+        background-image: url(../img/donation-bg-1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px 25px;
+        margin: 40px 0px;
+    }
+    
+    .action__title {
+        color: #facc2e;
+        font-size: 35px;
+    }
+    
+    .action__title1 {
+        color: #5dc269;
+    }
+    
+    .action__caption {
+        color: white;
+        font-size: 22px;
+        margin: 0px 0px 20px;
+    }
+    
+    .action__text {
+        color: white;
+        margin: 35px 0px;
+        font-size: 13px;
+    }
+    
+    .action__btn1 {
+        background-color: #ecb338;
+        color: #6d5b1c;
+        padding: 20px 25px;
+        border-color: #ecb338;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .action__btn2 {
+        background-color: #5dc269;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .action__right {
+        background-image: url(../img/donation-bg-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 50px 25px;
+        margin: 40px 0px;
+    }
+    /*Project Styles */
+    
+    .project {
+        background-color: #ffffff;
+    }
+    
+    .project__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 2px #dddddd;
+    }
+    
+    .project__title {
+        font-size: 24px;
+        color: black;
+        padding: 20px 50px;
+    }
+    
+    .project__title::before {
+        content: "";
+        background-image: url(../img/icon-5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        background-color: white;
+        margin-left: -50px;
+    }
+    
+    .project__pop {
+        color: #5dc269;
+        font-size: 12px;
+    }
+    
+    .project__pop::after {
+        content: '>>';
+        display: inline-block;
+        color: #5dc269;
+    }
+    
+    .project__content {
+        margin-top: 35px;
+        padding-right: 5px;
+    }
+    
+    .project__image {
+        width: 250px;
+        height: 166px;
+        border-radius: 6px;
+        opacity: 1;
+        display: block;
+        transition: 0.5s ease;
+    }
+    
+    .project__icon {
+        transition: 0.5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .project__image:hover {
+        transform: scale(1.1);
+        z-index: 2;
+        opacity: 0.3;
+    }
+    
+    .project__icon:hover {
+        opacity: 1;
+    }
+    
+    .project__content__title {
+        font-size: 15px;
+        line-height: 28px;
+        padding: 10px 0px 5px;
+        color: #5dc269;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .project__text {
+        color: #808080;
+        margin: 15px 0px 50px;
+    }
+    
+    .project__head {
+        color: #b0b0b0;
+        font-size: 12px;
+    }
+    /*OFFER styles*/
+    
+    .offer {
+        background-color: #f5f5f5;
+    }
+    
+    .offer__col-6 {
+        padding-left: 0;
+    }
+    
+    .offer__photo {
+        height: 550px;
+        background-image: url(../img/shutterstock_133689230.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .offer__block {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .offer__content {
+        padding: 35px 18px 20px 5px;
+    }
+    
+    .offer__pic {
+        width: 46px;
+        height: 46px;
+        margin: 40px 40px;
+    }
+    
+    .offer__title {
+        color: #5dc269;
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    
+    .offer__text {
+        padding: 15px 0;
+        color: #909090;
+    }
+    /*SUBSCRIBE styles*/
+    
+    .subscribe {
+        height: 563px;
+        background-image: url(../img/newsletter-bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .subscribe__newsletter {
+        text-align: center;
+    }
+    
+    .subscribe__content h3 {
+        font-size: 30px;
+        font-weight: 800;
+        color: #fec428;
+        text-align: center;
+    }
+    
+    input[type=text] {
+        width: 550px;
+        font-size: 15px;
+        padding: 17px 30px;
+    }
+    
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        border: none;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding: 17px 19px;
+        border-radius: 3px;
+    }
+    /*Advertisement styles*/
+    
+    .advertisement {
+        background-image: url(../img/service-bg-2.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .advertisement__item {
+        padding: 50px 10px;
+        margin: 20px 10px;
+    }
+    
+    .advertisement__subject {
+        border-top: 4px solid #828282;
+    }
+    
+    .advertisement__photo {
+        margin: 0px auto;
+        margin-bottom: 25px;
+        display: block;
+        max-width: 62px;
+    }
+    
+    .top1,
+    .middle1 {
+        text-align: center;
+    }
+    
+    .advertisement__caption {
+        font-size: 17px;
+        color: white;
+        text-align: center;
+    }
+    
+    .advertisement__count {
+        font-size: 35px;
+        color: #5dc269;
+        font-weight: bold;
+    }
+    
+    .advertisement__title {
+        font-size: 35px;
+        color: white;
+        padding: 40px 25px 0px 45px;
+        margin: 12px 50px;
+    }
+    
+    .advertisement__text {
+        font-size: 21px;
+        color: #949494;
+        text-align: center;
+        padding: 10px 0px 50px;
+    }
+    /*FOOTER styles*/
+    
+    .footer__row {
+        padding: 50px 0px;
+    }
+    
+    .footer {
+        background-color: #231e18;
+    }
+    
+    .footer__logo {
+        width: 170px;
+        margin-bottom: 20px
+    }
+    
+    .contact {
+        margin: 0px 5px 20px;
+    }
+    
+    .contact__text {
+        color: #bfbfbf;
+    }
+    
+    .contact__info {
+        margin-bottom: 30px;
+    }
+    
+    .footer h3 {
+        color: #dddddd;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        padding: 0px 16px;
+    }
+    
+    .contact__title {
+        color: #bfbfbf;
+    }
+    
+    .contact__title ul li {
+        list-style-type: none;
+        margin: 12px 0px;
+    }
+    
+    .recent__post {
+        display: flex;
+        border-bottom: 2px solid #382f24;
+        padding: 20px 0px 10px;
+    }
+    
+    .recent__post__date,
+    .title__link {
+        color: #7f7f7f
+    }
+    
+    .recent__post__content {
+        padding: 0px 7px;
+    }
+    
+    .recent__post__title {
+        font-size: 14px;
+    }
+    
+    .recent__post__pic {
+        max-width: 50px;
+    }
+    
+    .recent__work__block {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .recent__photo {
+        max-width: 75px;
+        padding: 5px 5px;
+    }

@@ -1,0 +1,198 @@
+@import url(grid.css);
+@import url(spacing.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    font-size: 12px;
+    color: #808080;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+/*Header styles*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(37, 53, 38, 0.85);
+    cursor: pointer;
+    position: absolute;
+}
+
+.logo {
+    padding: 20px 5px;
+}
+
+.header__pic {
+    max-width: 190px;
+}
+
+.nav {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.nav__menu {
+    padding: 0px 20px;
+}
+
+.nav__menu:hover {
+    color: #90ba92;
+}
+
+.nav__icon {
+    margin-right: -13px;
+}
+
+
+/*FORUM styles*/
+
+.forum__left,
+.forum__right {
+    padding: 45px 0px;
+}
+
+.forum__left__title {
+    font-size: 18px;
+    color: #3f3f3f;
+    margin-bottom: 25px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin: 2px 0px 15px;
+    border: 0px;
+    background-color: #f5f5f5;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 20px;
+    margin: 2px 0px 30px;
+    border: 0px;
+    background-color: #f5f5f5;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+}
+
+.forum__section {
+    margin-bottom: 40px;
+}
+
+.forum__right__title {
+    letter-spacing: 1px;
+    padding: 17px 0px;
+    color: #3f3f3f;
+}
+
+.forum__text ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.forum__icons {
+    color: #444444;
+    font-size: 30px;
+}
+
+
+/*FOOTER styles*/
+
+.footer__row {
+    padding: 50px 0px;
+}
+
+.footer {
+    background-color: #231e18;
+}
+
+.footer__logo {
+    width: 170px;
+    margin-bottom: 20px
+}
+
+.contact {
+    margin: 0px 5px 20px;
+}
+
+.contact__text {
+    color: #bfbfbf;
+}
+
+.contact__info {
+    margin-bottom: 30px;
+}
+
+.footer h3 {
+    color: #dddddd;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 0px 16px;
+}
+
+.contact__title {
+    color: #bfbfbf;
+}
+
+.contact__title ul li {
+    list-style-type: none;
+    margin: 12px 0px;
+}
+
+.recent__post {
+    display: flex;
+    border-bottom: 2px solid #382f24;
+    padding: 20px 0px 10px;
+}
+
+.recent__post__date,
+.title__link {
+    color: #7f7f7f
+}
+
+.recent__post__content {
+    padding: 0px 7px;
+}
+
+.recent__post__title {
+    font-size: 14px;
+}
+
+.recent__post__pic {
+    max-width: 50px;
+}
+
+.recent__work__block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recent__photo {
+    max-width: 75px;
+    padding: 5px 5px;
+}

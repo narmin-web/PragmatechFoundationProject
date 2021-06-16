@@ -1,0 +1,44 @@
+/*.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qutu {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    background-color: yellowgreen;
+}
+*/
+
+body {
+    background-image: url(https://www.timeoutdubai.com/attractions/img-worlds-of-adventure);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.transition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn-1 {
+    background-image: url(../img/master-slider-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 70px;
+    width: 70px;
+}
+
+#btn-2 {
+    background-image: url(../img/master-slider-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 70px;
+    width: 70px;
+}
