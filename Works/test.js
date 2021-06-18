@@ -1,4 +1,5 @@
-/*let count = 5;
+/* 
+let count = 5;
 const count1 = 10;
 console.log(count)
 console.log(count1)
@@ -293,7 +294,7 @@ console.log(deyisen)
 const names = ['hesen', 'eli', 'susa', 'gulnar']
 console.log(names.filter(name => name.length > 4))
 
-*/
+
 
 
 const users = [{

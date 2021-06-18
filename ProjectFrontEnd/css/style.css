@@ -53,6 +53,40 @@
     .nav__icon {
         margin-right: -13px;
     }
+    
+    .drop {
+        position: relative;
+        padding: 0px 24px;
+    }
+    
+    .dropdown li {
+        border-bottom: 2px solid#493e2b;
+        padding: 10px 20px;
+    }
+    
+    .dropdown {
+        position: absolute;
+        top: 40px;
+        left: 16px;
+        padding: 0px 50px;
+        list-style: none;
+        background-color: #25221a;
+        color: white;
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.6s ease 0s;
+    }
+    
+    .drop:hover .dropdown {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .dropdown li:hover {
+        color: #25221a;
+        transition: all 0.6s ease 0s;
+    }
     /*Banner styles*/
     
     .banner {
@@ -91,29 +125,6 @@
         border-radius: 3px;
         cursor: pointer;
         margin: 15px;
-    }
-    
-    .silder2 {
-        position: relative;
-    }
-    
-    .content1 {
-        position: absolute;
-    }
-    
-    .dots__block {
-        text-align: center;
-    }
-    
-    .dot {
-        cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-        background-color: black;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
     }
     /*Service styles*/
     
