@@ -103,7 +103,10 @@ a {
 }
 
 .slide {
-    display: none
+    display: none;
+    -o-transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 3s;
 }
 
 .dots__block {
@@ -221,15 +224,15 @@ a {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    animation: text 3s 1;
+    animation: example 3s 1;
 }
 
-@keyframes text {
+@keyframe example {
     0% {
-        transform: translatezY(0);
+        transform: translateX(0);
     }
     100% {
-        transform: translateY(200px);
+        transform: translateX(500px);
     }
 }
 
