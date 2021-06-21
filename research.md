@@ -1,6 +1,6 @@
 ### Transistor nədir və necə işləyir?
-- elektrik siqnallarını və ya gücünü gücləndirmək və ya dəyişdirmək (düzəltmək) üçün istifadə edilə bilər
-- is prinsipi NPN modeline esaslanir
+- elektrik siqnallarını və ya elektrik gücünü gücləndirmək , dəyişdirmək (düzəltmək) üçün istifadə olunan yarımkeçirici qurğudurş
+- is prinsipi NPN modeline esaslanirş
 ### 10luq say sistemi və 2lik say sistemi arasında konvertasiya necə aparılır?
 
 ## 10luq say sistemindəki bir ədədə 2lik say sisteminə necə çevirə bilərik?
