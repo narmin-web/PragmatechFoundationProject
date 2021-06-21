@@ -32,8 +32,7 @@ a {
 }
 
 .logo {
-    padding: 20px 40px;
-    margin: 0px 42px;
+    padding: 20px 5px;
 }
 
 .header__pic {
@@ -55,6 +54,40 @@ a {
 
 .nav__icon {
     margin-right: -13px;
+}
+
+.drop {
+    position: relative;
+    padding: 0px 24px;
+}
+
+.dropdown li {
+    border-bottom: 2px solid#493e2b;
+    padding: 10px 20px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 40px;
+    left: 16px;
+    padding: 0px 50px;
+    list-style: none;
+    background-color: #25221a;
+    color: white;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.6s ease 0s;
+}
+
+.drop:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown li:hover {
+    color: #25221a;
+    transition: all 0.6s ease 0s;
 }
 
 

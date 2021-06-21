@@ -175,6 +175,17 @@ for (let h = 0; h < arr1.length; h++) {
     }
 }
 
+//task6
+let arr1 = ['j', 'a', 'v', 'a', 's', 'r', 'i', 'p', 't'];
+for (let h = 0; h < arr1.length; h++) {
+    console.log(arr1[h], h)
+    if (arr1[h] == 'a') {
+        console.log(" Arrayda 'a' herfi var ")
+    } else {
+        console.log("Array 'a' herfi yoxdu")
+    }
+}
+
 
 let num4 = 35;
 let num5 = 50;
