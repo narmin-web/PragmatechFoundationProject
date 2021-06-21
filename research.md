@@ -6,6 +6,6 @@
 ### 2-lik say sistemindəki bir ədədə 10-luq say sisteminə necə çevirə bilərik?
 
 ### Hansı qaynaqlardan araşdırma etdiyinizi də qeyd edin.
-[transiztor qaynaq1](https://elektrikinfo.com/transistor-nedir/)
-[transiztor qaynaq2](https://regimos.ru/az/wiring/what-is-a-transistor-and-how-does-it-work-basics-of-electronics-for-dummies-what-is-a-transistor-and-how-it-works.html)
-[say sistemi qaynaq](https://www.youtube.com/watch?v=teTrhghcORA)
+- [transiztor qaynaq1](https://elektrikinfo.com/transistor-nedir/)
+- [transiztor qaynaq2](https://regimos.ru/az/wiring/what-is-a-transistor-and-how-does-it-work-basics-of-electronics-for-dummies-what-is-a-transistor-and-how-it-works.html)
+- [say sistemi qaynaq](https://www.youtube.com/watch?v=teTrhghcORA)
