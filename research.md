@@ -24,29 +24,28 @@ Qaynaq kodu setir-setir cevirerek icra edir.
 Yuksek seviyeli dilde yazilan proqrami masin diline ve ya basqa dile cevirir.Qaynaq koddaki datani emal ederek obyekt koda oturur oradan da emeliyyat sistemine.
 ### 3)qaynaq kod (source code) nədir
 her hansi proqrami yaradarken istifade etdiyimiz kodlar butunudur.Meselen her hansi yemeyin resepti o yemeyin qaynaq kodudur ;) 
-[qaynaq](https://www.youtube.com/watch?v=5JsIfKwJsPY)
+[istinad](https://www.youtube.com/watch?v=5JsIfKwJsPY)
 
 ### 4)python qaynaq kodu necə maşın dilinə tərcümə edir?
 
 ### 5)İnterpreter dillər və compiler dillər arasında fərqlər nələrdir?
 Compiler dil qaynaq kodu birdefeye masin diline cevirir.Interpreter diller ise setir-setir .Compiler interpretere gore bir az suretlidir.
-[qaynaq](https://www.youtube.com/watch?v=am7vyHCDU14)
+[istinad](https://www.youtube.com/watch?v=am7vyHCDU14)
 ### 6)Python və Javascript arasında oxşar və fərqli cəhətlər nələrdir?
 javascript dinamik web sayt ve istifadeci interfeysi yaratmaq ucun istifade olunan proqramlasdirma dilidir,Python ise muxtelilf sahelerde istifade edilir.mes suni zeka , data analiz ve s.JavaScript bir saytın front end hissəsini işlətmək üçün istifadə edilir, ancaq Python server tərəfini idarə etmək üçün istifadə edilə bilər.
-[qaynaq](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
+
+[istinad](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
 
 ### 7)VS Code-da Python kodu yazabilmək üçün lazımlı extentionlar hansılardır?
 Python Microsoft terefinden yaradilan extensionu ,Python Indent , Bracket Pair Colorizer , Code Runner ve s.
-[qaynaq](https://www.youtube.com/watch?v=UczGcbqNqUM)
 
-### 8)Terminal komandaları
-[qaynaq](https://medium.com/@emrekacan/temel-terminal-komutlar%C4%B1-fe08d7c54bc5)
- ## a) Yeni fayl yaradmaq üçün hansı komandadan istifadə edirik?
+[istinad](https://www.youtube.com/watch?v=UczGcbqNqUM)
+ ### 8) Yeni fayl yaradmaq üçün hansı komandadan istifadə edirik?
 touch faylin adi 
-## b)Faylı silmək üçün lazimlı komanda hansıdır?
+### 9)Faylı silmək üçün lazimlı komanda hansıdır?
 rm faylin adi
-## c)Yeni folder yaratmaq, folder silmək, folderin içərisinə daxil olmaq üçün lazımlı komandalar hansılardır?
+### 10)Yeni folder yaratmaq, folder silmək, folderin içərisinə daxil olmaq üçün lazımlı komandalar hansılardır?
 mkdir folder adi  (make direction) folder yaratmaq
 rm -r folder adi  folderi silmek 
 cd komandi ile folderin incerisine kecid etmek olur
-[qaynaq](https://medium.com/@emrekacan/temel-terminal-komutlar%C4%B1-fe08d7c54bc5)
+[istinad](https://medium.com/@emrekacan/temel-terminal-komutlar%C4%B1-fe08d7c54bc5)
