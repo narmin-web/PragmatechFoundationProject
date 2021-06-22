@@ -1,4 +1,4 @@
-### Week08-Day01 [21 Iyun 2021]
+*Week08-Day01 [21 Iyun 2021]*
 
 ### Transistor nədir və necə işləyir?
  > elektrik siqnallarını gücləndirmək ,dəyişdirmək üçün istifadə olunan dovre elementidir.Transiztorun birinci funksiyasi acarlamadir, digeri ise elektrik siqnallarin guclendirmekdir.Baza kollektor emitter adlanan hisselerden ibaretdir.Bazadan daxil olan enerji axini kollectordan emittere yaxud eksine gedir transiztor bu axina nezaret edir.
@@ -16,7 +16,7 @@
 
 
 
-### Week08-Day02 [22 Iyun 2021]
+*Week08-Day02 [22 Iyun 2021]*
 
 ### 1) interpreter dillər necə işləyir
 > Qaynaq kodu setir-setir cevirerek icra edir.
