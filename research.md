@@ -68,3 +68,25 @@
 > cd komandi ile folderin incerisine kecid etmek olur
 
 [istinad](https://medium.com/@emrekacan/temel-terminal-komutlar%C4%B1-fe08d7c54bc5)
+
+
+
+### str,int,bool data tipləri üzərində müqaise operatorlarının analizi
+# str,int,bool arasinda comparison operatorlarin istifadesi
+# bool=int -> icaze verilmir ona gore ki  ferqli data tipidir
+# str=str -> icaze verilir cunki eyni data tipidir
+# str!=bool -> icaze verilir ferqli data tipi olmasina baxmayaraq bir birine beraber deyil deye icaze verilir
+# bool<bool -> icaze verilmir cunki eyni data tipidir ve bir-birinden boyuk ola bilmez
+# int<=int -> normal riyazi emeliyat aparir cunki integerler bir-birine beraberdir
+
+
+> a='yazi'
+b=9
+c=True
+print(c==b)
+print(a==a)
+print(a!=c)
+print(c<c)
+print(b<=b)
+
+[istinad](https://www.w3schools.com/python/python_operators.asp)
