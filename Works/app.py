@@ -15,3 +15,28 @@ print(a==a)
 print(a!=c)
 print(c<c)
 print(b<=b)
+
+
+username=input(' username :')
+password=input(' password :')
+if username==''  or password=='':
+      print(butun melumatlar daxil edilmelidir)
+
+
+
+def f2(a ,b,c):
+  return a*b/c
+
+netice = f2(6,7 ,8)
+print(netice)
+
+
+
+
+def funksiya(seher="bakida"):
+    print ("men yasayiram" +seher) 
+
+funksiya("Parisde")
+funksiya()
+funksiya("Gencede")
+funksiya("Istanbulda")
