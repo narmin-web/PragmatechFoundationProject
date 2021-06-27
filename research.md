@@ -26,7 +26,7 @@
 
 
 
-*Week08-Day02 [22 Iyun 2021]*
+### *Week08-Day02 [22 Iyun 2021]*
 
 ### 1) interpreter dillər necə işləyir
 > Qaynaq kodu setir-setir cevirerek icra edir.
@@ -92,15 +92,16 @@ print(b<=b)
 [istinad](https://www.w3schools.com/python/python_operators.asp)
 
 
+#### *Week08-Day05 [25 Iyun 2021]*
 
 
-### void və return function nədir?
+### void function nədir?
 > Geriye deyer qaytarmayan (void).
 def sum(a,b):
     c=a+b
     print(c)
-
-- geriye deyer qaytaran(return).Return deyerini istifade etdikde ondan sonraki setirde setirde kod islemez.
+### return function nədir?
+> geriye deyer qaytaran(return).Return deyerini istifade etdikde ondan sonraki setirde kod islemez.
 def f(a ,b,c):
   return a*b/c
 
@@ -109,12 +110,15 @@ print(netice)
 
 
 [istinad](https://www.youtube.com/watch?v=J9ONM0M8Gz8)
-### parametr və arqument nədir?
-> Funksiya yaradarken verdiyimiz deyerlere parametr deyilir.funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir.
+### parametr nədir?
+> Funksiya yaradarken verdiyimiz deyerlere parametr deyilir.funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir. Asagidaki numunede ad parametrdir
 def salamlama (ad):
     print("xos gelmisiniz"+ad)   
-
-
+    
+### arqument nədir?
+>funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir.Asagidaki numuneye baxaq.
+def salamlama (ad):
+    print("xos gelmisiniz"+ad)   
 salamlama("Kamil")
 salamlama("hesen")   
 salamlama("memmed")    
@@ -123,13 +127,14 @@ salamlama("memmed")
 ### default parametr nədir?
 > Funksiyanı təyin edərkən parametrlərinə standart dəyərlər təyin etmək mümkündür. Funksiya çağırışında bir parametr buraxılırsa, standart dəyər istifadə olunur.Asagidaki funsiyada seher parametrinin default degeri Bakidir.
 def funksiya(seher="bakida"):
-    print ("men yasayiram" +seher) 
+   print ("men yasayiram" +seher) 
 
 funksiya("Parisde")
 funksiya()
 funksiya("Gencede")
 funksiya("Istanbulda")
 [istinad](https://duygubulut.wordpress.com/tag/parametre/)
+
 ###  dict nədir? Hansı hallarda istifadə olunur?
 >Dictionaryde esas mentiq her hansi acar soze uygun gelen melumat ve qiymetin olmasidir.Bu sebebden dictionaryden iki melumati elaqeli yaddasda saxlamaq ve tez sekilde muraciet etmek ucun istifade edirik.Acar soz dedikde ele bir melumat nezerde tutulur ki dictionaryde ona yalniz bir melumat uygun gelir.Asagida bir nece dictionary numunesinde mehsul acar sozune olan melumati tapib print etdik.
 aksesuar= {"mehsul":"qolbaq" , "terkibi": "qizil","istehsalci olke": "Turkiye"}
@@ -177,7 +182,7 @@ print(aksesuar)
 
 [istinad](https://sites.google.com/site/egitimbilgileri/home/a---python---twisted---qt/05---liste-tuple-dict-yapisi)
 ### tuple nədir? Hansı hallarda istifadə olunur?
-tuple listlere oxsardir. ancaq tuplein elementlerini deyisdirmek mumkun deyil.(immutable)Bezi hallarda serverler arasinda mesajlasma. mesaj a sunucusudan b-ye geder o deyerin deyise bilme xususiyyetini sinirlamaq lazim olur ki gelecekde sistem xetasi bas vermesin bele veziyyetde tuple istifadesi daha avantajlidir
+> tuple listlere oxsardir. ancaq tuplein elementlerini deyisdirmek mumkun deyil.(immutable)Bezi hallarda serverler arasinda mesajlasma. mesaj a sunucusudan b-ye geder o deyerin deyise bilme xususiyyetini sinirlamaq lazim olur ki gelecekde sistem xetasi bas vermesin bele veziyyetde tuple istifadesi daha avantajlidir
 aksesuar= ("qolbaq" , "sirga" ,"boyunbagi" , "uzuk")
 print(aksesuar)
 aksesuar[0]="diamond"
@@ -186,7 +191,7 @@ bu zaman  "tuple"object does not support item error verecek
 
 ### python dövrlər nədir? Nümunələrlə izah edin
 >Dövr hər hansı bir funsiyanin,işin təkrar-təkrar edilməsidir.
-Əgər dövrün ilkin və son qiyməti əvvəlcədən məlum olarsa for (sayğaclı)
+- Əgər dövrün ilkin və son qiyməti əvvəlcədən məlum olarsa for (sayğaclı)
 for dongusuyle bir numuneye baxaq
 s=0
 for i in [5, 6, 7, 8 , 9, 10] :
@@ -197,7 +202,7 @@ s=1
 for i in range (5,11):
     s=s*i
 print(s)
-Əgər təkrarlanmaların sayı əvvəlcədən məlum deyilsə belə dövr şərt(while) adlanır.
+- Əgər təkrarlanmaların sayı əvvəlcədən məlum deyilsə belə dövr şərt(while) adlanır.
 while dongusuyle bir numuneye baxaq
 s=1
 i=1
