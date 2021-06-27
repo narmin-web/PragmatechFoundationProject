@@ -16,16 +16,6 @@
 > İkilik  say sistemindən onluq say sisteminə keçmək üçün ədədi sağdan sola sıfırdan başlayıb ardıcıl nömrələmək , sonra ədədin hər bir rəqəmini ikinin uyğun qüvvətinə vurmaq və alınan cavabları toplamaq lazımdır.Ədədlərin üzərində 0 olanda 1-ə bərabər olur.Ədədlərin üzərində 1 olanda elə həmin ədədin özünə bərabər olur Ədədin üzərində neçə yazılırsa o ədədi özü-özünə o qədər dəfə vurmaq lazımdır.Məsələn 11001 ikilik say sistemindən 10luq say sisteminə keçidi 25ə bərabər olacaqdır.
 
 
-
-
-
-
-
-
-
-
-
-
 ### *Week08-Day02 [22 Iyun 2021]*
 
 ### 1) interpreter dillər necə işləyir
@@ -92,14 +82,16 @@ print(b<=b)
 [istinad](https://www.w3schools.com/python/python_operators.asp)
 
 
-#### *Week08-Day05 [25 Iyun 2021]*
+### *Week08-Day05 [25 Iyun 2021]*
 
 
 ### void function nədir?
 > Geriye deyer qaytarmayan (void).
+'''
 def sum(a,b):
     c=a+b
     print(c)
+'''
 ### return function nədir?
 > geriye deyer qaytaran(return).Return deyerini istifade etdikde ondan sonraki setirde kod islemez.
 def f(a ,b,c):
@@ -117,15 +109,18 @@ def salamlama (ad):
     
 ### arqument nədir?
 >funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir.Asagidaki numuneye baxaq.
+'''
 def salamlama (ad):
     print("xos gelmisiniz"+ad)   
 salamlama("Kamil")
 salamlama("hesen")   
-salamlama("memmed")    
+salamlama("memmed")
+'''    
 [istinad](https://tekrei.gitlab.io/other/bbgd_p/ch03.xhtml)
 
 ### default parametr nədir?
 > Funksiyanı təyin edərkən parametrlərinə standart dəyərlər təyin etmək mümkündür. Funksiya çağırışında bir parametr buraxılırsa, standart dəyər istifadə olunur.Asagidaki funsiyada seher parametrinin default degeri Bakidir.
+'''
 def funksiya(seher="bakida"):
    print ("men yasayiram" +seher) 
 
@@ -133,13 +128,13 @@ funksiya("Parisde")
 funksiya()
 funksiya("Gencede")
 funksiya("Istanbulda")
+'''
 [istinad](https://duygubulut.wordpress.com/tag/parametre/)
 
 ###  dict nədir? Hansı hallarda istifadə olunur?
 >Dictionaryde esas mentiq her hansi acar soze uygun gelen melumat ve qiymetin olmasidir.Bu sebebden dictionaryden iki melumati elaqeli yaddasda saxlamaq ve tez sekilde muraciet etmek ucun istifade edirik.Acar soz dedikde ele bir melumat nezerde tutulur ki dictionaryde ona yalniz bir melumat uygun gelir.Asagida bir nece dictionary numunesinde mehsul acar sozune olan melumati tapib print etdik.
 aksesuar= {"mehsul":"qolbaq" , "terkibi": "qizil","istehsalci olke": "Turkiye"}
 print (aksesuar["mehsul"])
-dictionaryde olmayan olan deyeri tapaq 
 
 [istinad](https://www.youtube.com/watch?v=iW6_F77ut0w)
 ### list nədir? Hansı hallarda istifadə olunur?
@@ -165,7 +160,7 @@ aksesuar.extend(yeni_aksesuar)
 print(aksesuar)
 
 - listden elementi silmek ucun remove ,pop , ve del istifade edirik 
-  - Eger biz asagidaki listde qolbaq yazisini silmek isteyirikse 
+Eger biz asagidaki listde qolbaq yazisini silmek isteyirikse 
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 
 aksesuar.remove("qolbaq")
