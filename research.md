@@ -87,40 +87,42 @@ print(b<=b)
 
 ### void function nədir?
 > Geriye deyer qaytarmayan (void).
-'''
+ ```
 def sum(a,b):
     c=a+b
     print(c)
-'''
+ ```
 ### return function nədir?
 > geriye deyer qaytaran(return).Return deyerini istifade etdikde ondan sonraki setirde kod islemez.
+ ```
 def f(a ,b,c):
   return a*b/c
 
 netice = f(6,7 ,8)
 print(netice)
-
+ ```
 
 [istinad](https://www.youtube.com/watch?v=J9ONM0M8Gz8)
 ### parametr nədir?
 > Funksiya yaradarken verdiyimiz deyerlere parametr deyilir.funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir. Asagidaki numunede ad parametrdir
+ ```
 def salamlama (ad):
     print("xos gelmisiniz"+ad)   
-    
+```
 ### arqument nədir?
 >funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir.Asagidaki numuneye baxaq.
-'
+ ```
 def salamlama (ad):
     print("xos gelmisiniz"+ad)   
 salamlama("Kamil")
 salamlama("hesen")   
 salamlama("memmed")
-'  
+ ```
 [istinad](https://tekrei.gitlab.io/other/bbgd_p/ch03.xhtml)
 
 ### default parametr nədir?
 > Funksiyanı təyin edərkən parametrlərinə standart dəyərlər təyin etmək mümkündür. Funksiya çağırışında bir parametr buraxılırsa, standart dəyər istifadə olunur.Asagidaki funsiyada seher parametrinin default degeri Bakidir.
-'
+ ```
 def funksiya(seher="bakida"):
    print ("men yasayiram" +seher) 
 
@@ -128,20 +130,22 @@ funksiya("Parisde")
 funksiya()
 funksiya("Gencede")
 funksiya("Istanbulda")
-'
+ ```
 [istinad](https://duygubulut.wordpress.com/tag/parametre/)
 
 ###  dict nədir? Hansı hallarda istifadə olunur?
 >Dictionaryde esas mentiq her hansi acar soze uygun gelen melumat ve qiymetin olmasidir.Bu sebebden dictionaryden iki melumati elaqeli yaddasda saxlamaq ve tez sekilde muraciet etmek ucun istifade edirik.Acar soz dedikde ele bir melumat nezerde tutulur ki dictionaryde ona yalniz bir melumat uygun gelir.Asagida bir nece dictionary numunesinde mehsul acar sozune olan melumati tapib print etdik.
+ ```
 aksesuar= {"mehsul":"qolbaq" , "terkibi": "qizil","istehsalci olke": "Turkiye"}
 print (aksesuar["mehsul"])
-
+ ```
 [istinad](https://www.youtube.com/watch?v=iW6_F77ut0w)
 ### list nədir? Hansı hallarda istifadə olunur?
 > Python-da hər hansı bir siyahı yaratmaq üçün əvvəlcə siyahımıza bir ad verməli və sonra həmin siyahının elementlərini kvadrat mötərizədə göstərməliyik.Siyahı hazırlayarkən üç əsas məqama diqqət etməliyikş
 Birincisi, dəyişənlərə ad verdiyimiz kimi siyahını adlandırmaq.
 İkincisi, siyahımızı təşkil edən maddələri kvadrat mötərizədə "[]" yazmaq.
 Python-un siyahıları ayırd edə bilməsi üçüncü əsas meyar siyahıdakı hər bir maddənin dırnaq işarələrində ("") göstərilməsi və vergüllə (,) ayrılmasıdır. Sade bir izahla listin yaradilmasini gosterek.
+ ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 print (aksesuar)
 append vasitesile 
@@ -150,37 +154,45 @@ aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 aksesuar.append("hal-hal")
 
 print(aksesuar)
-
+ ```
 += ve ya extend ile listleri birlesdire bilerik
+ ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 
 yeni_aksesuar=["hal-hal", "coker"]
 
 aksesuar.extend(yeni_aksesuar)
 print(aksesuar)
-
+ ```
 - listden elementi silmek ucun remove ,pop , ve del istifade edirik 
 Eger biz asagidaki listde qolbaq yazisini silmek isteyirikse 
+ ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 
 aksesuar.remove("qolbaq")
 print(aksesuar)
+ ```
   -  Pop ile asagidaki kimi ede bilerik
+   ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 
 aksesuar.pop(0)
 print(aksesuar)
+ ```
 -del ile asagidaki sekilde ede bilerik
+ ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 del aksesuar[0]
 print(aksesuar)
-
+ ```
 [istinad](https://sites.google.com/site/egitimbilgileri/home/a---python---twisted---qt/05---liste-tuple-dict-yapisi)
 ### tuple nədir? Hansı hallarda istifadə olunur?
 > tuple listlere oxsardir. ancaq tuplein elementlerini deyisdirmek mumkun deyil.(immutable)Bezi hallarda serverler arasinda mesajlasma. mesaj a sunucusudan b-ye geder o deyerin deyise bilme xususiyyetini sinirlamaq lazim olur ki gelecekde sistem xetasi bas vermesin bele veziyyetde tuple istifadesi daha avantajlidir
+ ```
 aksesuar= ("qolbaq" , "sirga" ,"boyunbagi" , "uzuk")
 print(aksesuar)
 aksesuar[0]="diamond"
+ ```
 bu zaman  "tuple"object does not support item error verecek
 [istinad](https://www.youtube.com/watch?v=4uy8wMXxBzY)
 
@@ -188,21 +200,27 @@ bu zaman  "tuple"object does not support item error verecek
 >Dövr hər hansı bir funsiyanin,işin təkrar-təkrar edilməsidir.
 - Əgər dövrün ilkin və son qiyməti əvvəlcədən məlum olarsa for (sayğaclı)
 for dongusuyle bir numuneye baxaq
+ ```
 s=0
 for i in [5, 6, 7, 8 , 9, 10] :
     s=s+i
 print(s)
+ ```
 range operatorlarindan istifade ederek numuneye baxaq
+ ```
 s=1
 for i in range (5,11):
     s=s*i
 print(s)
+ ```
 - Əgər təkrarlanmaların sayı əvvəlcədən məlum deyilsə belə dövr şərt(while) adlanır.
 while dongusuyle bir numuneye baxaq
+ ```
 s=1
 i=1
 while i<=10:
     s=s*i
     i=i+1
 print(s)
+ ```
 [istinad](https://www.youtube.com/watch?v=JUsemOXDvjY)
