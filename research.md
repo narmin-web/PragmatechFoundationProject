@@ -109,18 +109,18 @@ def salamlama (ad):
     
 ### arqument nədir?
 >funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir.Asagidaki numuneye baxaq.
-'''
+'
 def salamlama (ad):
     print("xos gelmisiniz"+ad)   
 salamlama("Kamil")
 salamlama("hesen")   
 salamlama("memmed")
-'''    
+'  
 [istinad](https://tekrei.gitlab.io/other/bbgd_p/ch03.xhtml)
 
 ### default parametr nədir?
 > Funksiyanı təyin edərkən parametrlərinə standart dəyərlər təyin etmək mümkündür. Funksiya çağırışında bir parametr buraxılırsa, standart dəyər istifadə olunur.Asagidaki funsiyada seher parametrinin default degeri Bakidir.
-'''
+'
 def funksiya(seher="bakida"):
    print ("men yasayiram" +seher) 
 
@@ -128,7 +128,7 @@ funksiya("Parisde")
 funksiya()
 funksiya("Gencede")
 funksiya("Istanbulda")
-'''
+'
 [istinad](https://duygubulut.wordpress.com/tag/parametre/)
 
 ###  dict nədir? Hansı hallarda istifadə olunur?
