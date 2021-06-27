@@ -179,21 +179,26 @@ aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 aksesuar.pop(0)
 print(aksesuar)
    ```
+
 - del ile asagidaki sekilde ede bilerik
+
  ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 del aksesuar[0]
 print(aksesuar)
  ```
+
 [istinad](https://sites.google.com/site/egitimbilgileri/home/a---python---twisted---qt/05---liste-tuple-dict-yapisi)
 
 ### Tuple nədir? Hansı hallarda istifadə olunur?
 tuple listlere oxsardir. ancaq tuplein elementlerini deyisdirmek mumkun deyil.(immutable)Bezi hallarda serverler arasinda mesajlasma. mesaj a sunucusudan b-ye geder o deyerin deyise bilme xususiyyetini sinirlamaq lazim olur ki gelecekde sistem xetasi bas vermesin bele veziyyetde tuple istifadesi daha avantajlidir
+
  ```
 aksesuar= ("qolbaq" , "sirga" ,"boyunbagi" , "uzuk")
 print(aksesuar)
 aksesuar[0]="diamond"
  ```
+
 bu zaman  "tuple"object does not support item error verecek
 
 [istinad](https://www.youtube.com/watch?v=4uy8wMXxBzY)
@@ -202,21 +207,26 @@ bu zaman  "tuple"object does not support item error verecek
 Dövr hər hansı bir funsiyanin,işin təkrar-təkrar edilməsidir.
 - Əgər dövrün ilkin və son qiyməti əvvəlcədən məlum olarsa for (sayğaclı)
 for dongusuyle bir numuneye baxaq
+
  ```
 s=0
 for i in [5, 6, 7, 8 , 9, 10] :
     s=s+i
 print(s)
  ```
+
 - range operatorlarindan istifade ederek numuneye baxaq
+
  ```
 s=1
 for i in range (5,11):
     s=s*i
 print(s)
  ```
+
 - Əgər təkrarlanmaların sayı əvvəlcədən məlum deyilsə belə dövr şərt(while) adlanır.
 while dongusuyle bir numuneye baxaq
+
  ```
 s=1
 i=1
@@ -225,4 +235,5 @@ while i<=10:
     i=i+1
 print(s)
  ```
+ 
 [istinad](https://www.youtube.com/watch?v=JUsemOXDvjY)
