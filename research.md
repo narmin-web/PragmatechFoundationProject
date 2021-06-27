@@ -164,7 +164,7 @@ yeni_aksesuar=["hal-hal", "coker"]
 aksesuar.extend(yeni_aksesuar)
 print(aksesuar)
  ```
-- listden elementi silmek ucun remove ,pop , ve del istifade edirik 
+listden elementi silmek ucun remove ,pop , ve del istifade edirik 
 Eger biz asagidaki listde qolbaq yazisini silmek isteyirikse 
   ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
@@ -172,7 +172,7 @@ aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 aksesuar.remove("qolbaq")
 print(aksesuar)
   ```
-- Pop ile asagidaki kimi ede bilerik
+Pop ile asagidaki kimi ede bilerik
 ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 
@@ -180,7 +180,7 @@ aksesuar.pop(0)
 print(aksesuar)
    ```
 
-- del ile asagidaki sekilde ede bilerik
+del ile asagidaki sekilde ede bilerik
 
  ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
@@ -205,7 +205,7 @@ bu zaman  "tuple"object does not support item error verecek
 
 ### Python dövrlər nədir? Nümunələrlə izah edin
 Dövr hər hansı bir funsiyanin,işin təkrar-təkrar edilməsidir.
-- Əgər dövrün ilkin və son qiyməti əvvəlcədən məlum olarsa for (sayğaclı)
+Əgər dövrün ilkin və son qiyməti əvvəlcədən məlum olarsa for (sayğaclı)
 for dongusuyle bir numuneye baxaq
 
  ```
@@ -215,7 +215,7 @@ for i in [5, 6, 7, 8 , 9, 10] :
 print(s)
  ```
 
-- range operatorlarindan istifade ederek numuneye baxaq
+range operatorlarindan istifade ederek numuneye baxaq
 
  ```
 s=1
@@ -224,7 +224,7 @@ for i in range (5,11):
 print(s)
  ```
 
-- Əgər təkrarlanmaların sayı əvvəlcədən məlum deyilsə belə dövr şərt(while) adlanır.
+Əgər təkrarlanmaların sayı əvvəlcədən məlum deyilsə belə dövr şərt(while) adlanır.
 while dongusuyle bir numuneye baxaq
 
  ```
@@ -235,5 +235,5 @@ while i<=10:
     i=i+1
 print(s)
  ```
- 
+
 [istinad](https://www.youtube.com/watch?v=JUsemOXDvjY)
