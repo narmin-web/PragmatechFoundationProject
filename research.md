@@ -84,14 +84,14 @@ print(b<=b)
 ### *Week08-Day05 [25 Iyun 2021]*
 
 
-### void function nədir?
+### 1)void function nədir?
 Geriye deyer qaytarmayan (void).
  ```
 def sum(a,b):
     c=a+b
     print(c)
  ```
-### return function nədir?
+### 2)return function nədir?
 geriye deyer qaytaran(return).Return deyerini istifade etdikde ondan sonraki setirde kod islemez.
  ```
 def f(a ,b,c):
@@ -102,13 +102,13 @@ print(netice)
  ```
 
 [istinad](https://www.youtube.com/watch?v=J9ONM0M8Gz8)
-### parametr nədir?
+### 3)parametr nədir?
 Funksiya yaradarken verdiyimiz deyerlere parametr deyilir.funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir. Asagidaki numunede ad parametrdir
  ```
 def salamlama (ad):
     print("xos gelmisiniz"+ad)   
 ```
-### arqument nədir?
+### 4)arqument nədir?
 Funksiyada sonradan gonderilen ve yeni deyerler alan ifadelere arqument deyilir.Asagidaki numuneye baxaq.
  ```
 def salamlama (ad):
@@ -119,7 +119,7 @@ salamlama("memmed")
  ```
 [istinad](https://tekrei.gitlab.io/other/bbgd_p/ch03.xhtml)
 
-### default parametr nədir?
+### 5)default parametr nədir?
 Funksiyanı təyin edərkən parametrlərinə standart dəyərlər təyin etmək mümkündür. Funksiya çağırışında bir parametr buraxılırsa, standart dəyər istifadə olunur.Asagidaki funsiyada seher parametrinin default degeri Bakidir.
  ```
 def funksiya(seher="bakida"):
@@ -132,7 +132,7 @@ funksiya("Istanbulda")
  ```
 [istinad](https://duygubulut.wordpress.com/tag/parametre/)
 
-###  dict nədir? Hansı hallarda istifadə olunur?
+###  6)dict nədir? Hansı hallarda istifadə olunur?
 Dictionaryde esas mentiq her hansi acar soze uygun gelen melumat ve qiymetin olmasidir.Bu sebebden dictionaryden iki melumati elaqeli yaddasda saxlamaq ve tez sekilde muraciet etmek ucun istifade edirik.Acar soz dedikde ele bir melumat nezerde tutulur ki dictionaryde ona yalniz bir melumat uygun gelir.Asagida bir nece dictionary numunesinde mehsul acar sozune olan melumati tapib print etdik.
  ```
 aksesuar= {"mehsul":"qolbaq" , "terkibi": "qizil","istehsalci olke": "Turkiye"}
@@ -140,7 +140,7 @@ print (aksesuar["mehsul"])
  ```
 [istinad](https://www.youtube.com/watch?v=iW6_F77ut0w)
 
-### list nədir? Hansı hallarda istifadə olunur?
+### 7)list nədir? Hansı hallarda istifadə olunur?
 Python-da hər hansı bir siyahı yaratmaq üçün əvvəlcə siyahımıza bir ad verməli və sonra həmin siyahının elementlərini kvadrat mötərizədə göstərməliyik.Siyahı hazırlayarkən üç əsas məqama diqqət etməliyikş
 Birincisi, dəyişənlərə ad verdiyimiz kimi siyahını adlandırmaq.
 İkincisi, siyahımızı təşkil edən maddələri kvadrat mötərizədə "[]" yazmaq.
@@ -190,7 +190,7 @@ print(aksesuar)
 
 [istinad](https://sites.google.com/site/egitimbilgileri/home/a---python---twisted---qt/05---liste-tuple-dict-yapisi)
 
-### Tuple nədir? Hansı hallarda istifadə olunur?
+### 8)Tuple nədir? Hansı hallarda istifadə olunur?
 tuple listlere oxsardir. ancaq tuplein elementlerini deyisdirmek mumkun deyil.(immutable)Bezi hallarda serverler arasinda mesajlasma. mesaj a sunucusudan b-ye geder o deyerin deyise bilme xususiyyetini sinirlamaq lazim olur ki gelecekde sistem xetasi bas vermesin bele veziyyetde tuple istifadesi daha avantajlidir
 
  ```
@@ -203,7 +203,7 @@ bu zaman  "tuple"object does not support item error verecek
 
 [istinad](https://www.youtube.com/watch?v=4uy8wMXxBzY)
 
-### Python dövrlər nədir? Nümunələrlə izah edin
+### 9)Python dövrlər nədir? Nümunələrlə izah edin
 Dövr hər hansı bir funsiyanin,işin təkrar-təkrar edilməsidir.
 Əgər dövrün ilkin və son qiyməti əvvəlcədən məlum olarsa for (sayğaclı)
 for dongusuyle bir numuneye baxaq
