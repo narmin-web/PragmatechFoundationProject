@@ -52,9 +52,9 @@ touch faylin adi
 rm faylin adi
 
 ### 10)Yeni folder yaratmaq, folder silmək, folderin içərisinə daxil olmaq üçün lazımlı komandalar hansılardır?
-> mkdir folder adi  (make direction) folder yaratmaq
-> m -r folder adi  folderi silmek 
-> cd komandi ile folderin incerisine kecid etmek olur
+- mkdir folder adi  (make direction) folder yaratmaq
+-  m -r folder adi  folderi silmek 
+-  cd komandi ile folderin incerisine kecid etmek olur
 
 [istinad](https://medium.com/@emrekacan/temel-terminal-komutlar%C4%B1-fe08d7c54bc5)
 
@@ -166,19 +166,19 @@ print(aksesuar)
  ```
 - listden elementi silmek ucun remove ,pop , ve del istifade edirik 
 Eger biz asagidaki listde qolbaq yazisini silmek isteyirikse 
- ```
+  ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 
 aksesuar.remove("qolbaq")
 print(aksesuar)
- ```
+  ```
 - Pop ile asagidaki kimi ede bilerik
-   ```
+```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
 
 aksesuar.pop(0)
 print(aksesuar)
- ```
+   ```
 - del ile asagidaki sekilde ede bilerik
  ```
 aksesuar= ["qolbaq" , "sirga" ,"boyunbagi" , "uzuk"]
