@@ -237,3 +237,64 @@ print(s)
  ```
 
 [istinad](https://www.youtube.com/watch?v=JUsemOXDvjY)
+
+### *Week09-Day01 [28 Iyun 2021]*
+
+
+### 1)Bir mesajı dəyişəndə saxlayın və sonra mesajı çapa verin
+```
+mesaj= "Bu axirinci xeberdarliqdir"
+print(mesaj)
+```
+### 2)ad və soyad dəyişkənləri yaradın və onlara istədiyiniz kiçik hərflərdən ibarət dəyər verin. Sonra tam_ad adlı dəyərdə ad və soyadın ilk hərflərini böyük şəkildə çapa verərək həmin şəxsə Salam verin.
+```
+ad= 'nermin'
+soyad='qarazade'
+
+tam_ad= ad.capitalize() + soyad.capitalize() 
+print("Salam" +tam_ad)
+```
+
+### 3)İki ədədi iki müxtəlif dəyişkənə mənimsədin sonra isə onların bir birlərinə olan qüvvətini tapın (Riyazi operatorları research edin həll etmək üçün bu taski)
+```
+x = 5
+y = 3
+z= x**y
+c= y**x
+print(z)
+print(c)
+```
+
+### 4) y = “4.92” stringini integere çevirin.
+```
+y="4.92"
+z=int(float (y))
+print(type(y))
+```
+
+### 5) İstifadəçidən havanın temperaturunu soruşun. 10 dərəcədən aşağı olarsa temperatur, ekrana soyuq, 20 dərəcə olarsa, Normal, 30 dərəcədən yüksək olarsa İsti sözü yazılsın.
+```
+
+x = int(input('Havanin temperaturu nece derecedir?'))
+if x <10:
+    print('Soyuq')
+elif x==20:
+    print('Normal')
+else : 
+    print('Isti')
+```
+
+### 6) 'Proqramlaşdırma' sözündə 'x' hərfinin olub-olmamasının yoxlayın
+```
+z = "Proqramlaşdırma"
+
+print('x' in z)
+```
+### 7)İki dənə string tipində dəyişkən yaradıb onları başqa bir string dəyərdə birləşdirib saxlayın və həmin string dəyəri ekrana yazdırın
+```
+deyer1='buyurun'
+deyer2='xos gelmisiniz'
+
+deyer3='Salam' + deyer1 + deyer2
+print(deyer3)
+```
