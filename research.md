@@ -298,3 +298,63 @@ deyer2='xos gelmisiniz'
 deyer3='Salam' + deyer1 + deyer2
 print(deyer3)
 ```
+
+
+### *Week09-Day03 [30 Iyun 2021]*
+
+
+### 1)Kvadrat yaratmaq olarsa daxil edilən 4 ədəddən, ekrana kvadratın sahəsini, olmazsa, həmin ədədlərin cəmini verin.
+```
+secim = input("1.kvadrat 2.cem")
+if secim=="1":
+    x = int(input("eded daxil edin...:"))
+    print("Kvadratin sahesi....:", x**2)
+elif secim=="2":
+    a = int(input("eded daxil edin...:"))
+    b= int(input("eded daxil edin...:"))
+    c = int(input("eded daxil edin...:"))
+    d = int(input("eded daxil edin...:"))
+    print(sum(2))
+```
+
+### 2)Dörd ədəd daxil edin. Onlardan ən böyüyünü çapa verin.
+```
+eded=[4, 5, 6, 7]
+max=0
+for a in eded:
+  if a>max:
+    max=a
+print(max)
+
+```
+### 3)Proqram run olunanda, istifadəçiyə meyvələr menyusu təqdim olunsun. Userdən menyunuzdakı meyvələrdən birinin adını daxil etməsini tələb edin və ekrana meyvənin qiymətini yazdırın. (İstədiyiniz qiyməti yazdırın). Əgər menyuda olmayan meyvə daxil edilsə, ekrana error mesajı verin.
+```
+print("alma", "armud", "gilas", "gavali")
+meyveler = input("meyvelerden birini daxil edin ")
+if meyveler=="alma":
+    print("meyvenin qiymeti 2 manatdir")
+if meyveler=="erik":
+    print("error")
+```
+### 4)Qeydiyyat formu düzəldin. İstifadəçi adını daxil etsin. Adın uzunlu 3-dən kiçik 11-dən böyük ola bilməz.Əgər adını düzgün daxil edərsə, soyadının daxil etməsini istəyin. Soyad 5 hərfdən kiçik, 15 hərfdən uzun olmasın. Əgər soyad düzgün daxil edilsə, Daha sonra doğulduğu ili daxil etsin. Doğum ilinin uzunluğu 4 simvoldan ibarət olmalıdır. Sonra email daxil etməsini tələb edin. Emailin uzunluğu 10 hərifdən qısa 22 hərfdən uzzun olmasın, tərkibində @gmail.com olsun və bu hissə daxil etdiyi emailin sonunda olsun. Ardınca parol axil etsin. Parol 6-13 simvol aralığında olmalıdır. Sonra parolu təsdiqləməyini tələb edin. Təsdiqlədiyi parol birinci yazdığı parol ilə eyni olmalıdır. Bütün bunlar düzgün daxil edilərsə, Qeydiyyat tamamlandı mesajı verilsin və istifadəçidən qeydiyyatın detallarına baxmaq istəyib-istəməməsi soruşulsun. Əgər hə desə, aşağıdakı görüntü çapa verilsin: (Qeyd: Yuxarıda sizin verdiyiniz şərtlərə uyğun istifadəçi input daxil etmsəsə, hər verdiyibiz şərtə uyğun error tipli mesaj verin. Məsələn doğum ilini 5 simvoldan ibarət daxil etsə, mesaj verilsin ki, 4 simvol daxil edin. Yəni hər şərti müvafiq mesajlar ilə userə izah edin. ============================================= Ad: Murad Soyad: Əliyev Yaş: 22 Email: muradaliyev1996@gmail.com Parol: 123456789 ============================================= Əgər yox desə, Murad Əliyev, Uğurlar! Yazılsın.
+```
+ad = input('Ad: ')
+if 3 <=  len(ad) <= 11: 
+    soyad = input('Soyad: ')
+    if 5 <= len(soyad) <=15:
+        il = input('il: ')
+        if len(il) == 4:
+            email = input('Email: ')
+            com = "@gmail.com"
+            if 10 <= len(email) <= 22 and email.endswith("@gmail.com"):
+                parol = input('parol: ')
+                if 6 <= len(parol) <= 13:
+                    confirm = input('parolu tesdiqle: ')
+                    if confirm == parol:
+                        print('qeydiyyat tamamlandi')
+                        baxis = input('qeydiyyat melumatlariniza baxmaq isteyirsiniz? ')
+                        if baxis== 'he':
+                             print(f'ad:{ad} soyad:{soyad} il:{il} email:{email} parol:{parol}')
+                        elif baxis == 'yox' :
+                             print(f'{ad} {soyad},ugurlar')
+```

@@ -1,4 +1,3 @@
-
 x= input(" bir data daxil edin:")
 
 print(type(x))
