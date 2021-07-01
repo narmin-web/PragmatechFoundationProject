@@ -305,16 +305,23 @@ print(deyer3)
 
 ### 1)Kvadrat yaratmaq olarsa daxil edilən 4 ədəddən, ekrana kvadratın sahəsini, olmazsa, həmin ədədlərin cəmini verin.
 ```
-secim = input("1.kvadrat 2.cem")
-if secim=="1":
-    x = int(input("eded daxil edin...:"))
-    print("Kvadratin sahesi....:", x**2)
-elif secim=="2":
-    a = int(input("eded daxil edin...:"))
-    b= int(input("eded daxil edin...:"))
-    c = int(input("eded daxil edin...:"))
-    d = int(input("eded daxil edin...:"))
-    print(sum(2))
+
+list = []
+z = 0
+
+eded = int(input("eded sayini mueyyen edin : "))
+for i in range(1, eded + 1):
+    x = int(input("ededleri daxil edin : "))
+    list.append(x)
+for j in range(eded):
+    z = z + list[j]
+print("reqemlerin cemi: ", z)
+
+for j in range(eded):
+    z=z * list[j]
+print("kvadratin sahesi : ",z)
+
+
 ```
 
 ### 2)Dörd ədəd daxil edin. Onlardan ən böyüyünü çapa verin.
